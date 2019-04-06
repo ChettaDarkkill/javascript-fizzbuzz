@@ -107,3 +107,7 @@ test('should return 26 when enter 26', () => {
 test('should return Fizz when enter 27', () => {
     expect(fizzbuzz(27)).toBe("Fizz")
 })
+
+test('should return 28 when enter 28', () => {
+    expect(fizzbuzz(28)).toBe(28)
+})
