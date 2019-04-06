@@ -53,5 +53,5 @@ test('should return 13 when enter 13', () => {
 })
 
 test('should return 14 when enter 14', () => {
-    expect(fizzbuzz(14)).toBe(14)
+     expect(fizzbuzz(14)).toBe(14)
 })
