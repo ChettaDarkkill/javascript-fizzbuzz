@@ -33,5 +33,9 @@ test('should return 8 when enter 8', () => {
 })
 
 test('should return Fizz when enter 9', () => {
-    expect(fizzbuzz(9)).toBe('Fizz')
+    expect(fizzbuzz(9)).toBe("Fizz")
+})
+
+test('should return Buzz when enter 10', () => {
+    expect(fizzbuzz(10)).toBe("Buzz")
 })
